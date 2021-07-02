@@ -3,16 +3,32 @@
 ## Contacts
 * Email: wilshere10000@gmail.com
 * Telegram: @MikalaiMikhailavich
-* VK: [Kolya Vegera](https://vk.com/mikalaivegera "my vk")
+* Discord: mikalaiMikhailavich#7765
+* VK: [Kolya Vegera](https://vk.com/mikalaivegera)
 
-## About Me 
-I'm 25 years old. I have been working as a design engineer at a factory for 4 years
+## Summary 
+I'm 25 years old. I have been working as a design engineer at a factory for 4 years. I want to try myself as a front-end developer and see the specifics of work from the inside. So I started to learn web-technologies, in particular HTML, CSS and JavaScript. Studying isn't easy for me,but I like to solve problems and get results. I'm fast-learning and hard-working person.
 
 ## Tech Skills
-> dsadsadas
->
->> - dsadsa
->
-> asdas
->
-> *fdsf*
+- Markdown
+- Tools/Methodologies Git
+- HTML
+- CSS
+- JavaScript
+
+## Code example
+```
+function fruitProcessor(apples, oranges) {
+  const juice = `Juice with ${apples}
+  apples and ${oranges} oranges.`;
+  return juice;
+}
+
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+```
+
+## Language skills
+
+- Russian (native)
+- English (A2)
