@@ -27,6 +27,13 @@ function fruitProcessor(apples, oranges) {
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
 ```
+## PROFESSIONAL EXPERIENCE
+
+## EDUCATION
+[The Complete JavaScript Course 2021: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
+
+[Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) (https://mikalaimikhailavich.github.io/omnifood_css/Omnifood/)
+
 
 ## Language skills
 
