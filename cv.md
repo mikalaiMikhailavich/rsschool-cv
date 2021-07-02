@@ -28,14 +28,14 @@ const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
 ```
 ## PROFESSIONAL EXPERIENCE
+I haven’t worked in IT, but i have [_my mini project_](https://mikalaimikhailavich.github.io/omnifood_css/Omnifood/).
 
 ## EDUCATION
 1. JavaScript course: [The Complete JavaScript Course 2021: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
 
-2. HTML and CSS course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) [(_my mini project_)](https://mikalaimikhailavich.github.io/omnifood_css/Omnifood/)
+2. HTML and CSS course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) 
 
 
 ## Language skills
-
 - Russian (native)
 - English (A2)
