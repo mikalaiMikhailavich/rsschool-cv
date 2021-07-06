@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+header{
+    display: flex;
+    width: 100%;
+
+}
+.photo{
+    flex: 0 1 45%;
+    /* border-radius: 50px; */
+       
+}
+.photo img{
+    width: auto;
+    height: 150px;
+}
+aside{
+    width: 40%;
+    float: left;
+}
