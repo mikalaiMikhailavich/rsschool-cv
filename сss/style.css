@@ -88,9 +88,8 @@ main p{
     text-align: justify;
 }
 
-a{
-    text-decoration: none;
-}
+a{ text-decoration: none;}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -105,12 +104,9 @@ footer{
 }
 
 .footer-logo:hover,
-.footer-logo:active{
-    opacity: 0.5;   
-}
+.footer-logo:active{ opacity: 0.5;}
 
 .year{
     color: white;
-    font-size: 40px;
-    
+    font-size: 40px;   
 }
