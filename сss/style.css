@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     font-family: 'Lato', sans-serif;
-    color: #555;
     font-weight: 500;
     font-size: 20px;
+    color: #555;
     background: white;
 }
 
@@ -21,25 +22,32 @@ h1{
     text-transform: uppercase;
     font-weight: 400;
 }
+
 h2{
+    padding-bottom: 7px;
     font-size: 160%;
     word-spacing: 2px;
     text-align: center;
     letter-spacing: 1px;
     color: white;
     font-weight: 400;
+    
 }
+
 h3{
-    border-bottom:1px solid #555;
-    padding-bottom: 4px;
-    padding-top: 10px;
+    border-bottom: 1px solid #555;
     margin-bottom: 7px;
+    padding: 10px 4px 0;
+    
 }
+
 body{
-    max-width: 1024px;
     margin: 0 auto;
+    max-width: 1024px;
     background: whitesmoke;
+    box-shadow: 0 0 20px 10px rgb(36, 34, 34,.2);   
 }
+
 header{
     width: 100%;
     text-align: center;
@@ -55,26 +63,54 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 15px;
 
 }
 .left{
-    flex: 0 1 35%;
-    margin: 2%;
-    
+    flex: 0 1 32%;
+    margin: 10px 5px 0px 10px;
+    padding-right: 25px;
+    border-right: 1px solid #555;    
 }
+
 .right{
-    flex:1;
-    margin: 2%;
-    
+    flex: 1;
+    margin: 10px 5px 0px 10px;   
 }
+
 li{
     margin-left: 20px;
     padding-bottom: 4px;
 }
+
 main p{
-    /* max-width: 90%; */
+    max-width: 95%;
     text-align: justify;
 }
+
 a{
     text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: center;
+    background: rgb(43, 43, 56);
+}
+.footer-logo{
+    height: 50px;
+    width: auto;
+    transition: opacity 0.5s;
+}
+
+.footer-logo:hover,
+.footer-logo:active{
+    opacity: 0.5;   
+}
+
+.year{
+    color: white;
+    font-size: 40px;
+    
 }
