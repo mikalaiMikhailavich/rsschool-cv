@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555;
+    background: white;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 210%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h2{
+    padding-bottom: 7px;
+    font-size: 160%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+h3{
+    border-bottom: 1px solid #555;
+    margin-bottom: 7px;
+    padding: 10px 4px 0;
+    
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background: whitesmoke;
+    box-shadow: 0 0 20px 10px rgb(36, 34, 34,.2);   
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background: rgb(43, 43, 56);
+}
+
+.photo img{
+    width: auto;
+    height: 200px;
+    border-radius: 60%;   
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+
+}
+.left{
+    flex: 0 1 34%;
+    margin: 10px 5px 0px 10px;
+    padding-right: 25px;
+    border-right: 1px solid #555;    
+}
+
+.right{
+    flex: 1;
+    margin: 10px 5px 0px 10px;   
+}
+
+li{
+    margin-left: 20px;
+    padding-bottom: 4px;
+}
+
+main p{
+    max-width: 95%;
+    text-align: justify;
+}
+
+a{ text-decoration: none;}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    background: rgb(43, 43, 56);
+}
+.footer-logo{
+    height: 50px;
+    width: auto;
+    transition: opacity 0.5s;
+}
+
+.footer-logo:hover,
+.footer-logo:active{ opacity: 0.5;}
+
+.logo-git{
+    flex: 0 1 45%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.logo-rs{
+    flex: 0 1 25%;
+}
+
+.year{
+    color: white;
+    font-size: 40px;
+    flex: 1;
+    text-align: right;   
+}
